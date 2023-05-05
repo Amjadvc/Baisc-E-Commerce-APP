@@ -1,0 +1,30 @@
+.carousel-inner {
+  height: 700px;
+  background-color: #7d7d7d;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.imges-style {
+  height: 800px;
+  object-fit: cover;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: var(--bs-gray-dark);
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 60px !important;
+  height: 4px !important;
+}
+@media (max-width: 420px) {
+}
